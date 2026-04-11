@@ -7,7 +7,7 @@ import streamlit as st
 # ==========================================
 # 1. 설정값 (IP, API, 유지 시간)
 # ==========================================
-DEVICE_IP = "172.30.1.55" # 스마트 플러그 IP (노트북과 같은 와이파이 필수!)
+DEVICE_IP = "172.30.1.65" # 스마트 플러그 IP (노트북과 같은 와이파이 필수!)
 API_URL = "https://api.airgradient.com/public/api/v1/locations/measures/current"
 API_TOKEN = "74cf04f0-11c0-4498-9d7f-e191977faeb4"
 MIN_HOLD_SECONDS = 300  # 상태 변경 후 최소 유지 시간 (5분)
